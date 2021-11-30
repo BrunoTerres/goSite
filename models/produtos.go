@@ -47,3 +47,8 @@ func SelectTodosProdutos() []Produto {
 
 	return produtos
 }
+
+func CriaNovoProduto(nome string, descricao string, preco float64, quantidade int) {
+	db.ConectaComBancoDeDados()
+
+}
